@@ -1,0 +1,130 @@
+body{
+	/*font-family: Andale Mono,"AndaleMono",monospace;*/
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: normal;
+	padding-top: 25px;
+	/*background-color: rgb(220,220,220);*/
+	background-image: url('../img/bgpaper3.jpg');
+	background-size: 100%;	
+}
+.right-now{
+padding-top: 0px;
+padding-bottom: 50px;
+}
+.name-head{
+	color: black;
+}
+.name-details{
+	float: right;
+}
+.image-head{
+	float: right;
+}
+.container
+{
+	margin-right: 15px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+.list-defined{
+	font-size: 16px;
+}
+.text-about
+{
+	padding-top: 65px;
+	font-size: 16px;
+}
+.hr-line{
+	color: white;
+	border-top: solid;
+}
+p{
+	font-size: 16px;
+}
+.social img{
+                width: 40px;
+                height: 40px;
+}
+.copyright{
+	 font-family: Arial,sans-serif;
+                color: #aaaaaa;
+                margin-bottom: 20px;
+}
+@media (min-width: 1280px){
+                
+}
+@media (max-width: 1023px){
+				.image-head{
+					float: center;
+                }
+              .sidehead{
+                	width: auto;
+                	text-align: center;
+                	
+                }
+                .copyright
+                {
+                	text-align: center;
+                }
+                .get-touch{
+                	text-align: center;
+                }
+}
+@media (max-width: 768px){
+				.image-head{	
+                float: center;
+                }
+                .sidehead{
+                	width: auto;text-align: center;
+
+                }
+                .copyright
+                {
+                	text-align: center;
+                }
+                .get-touch{
+                	text-align: center;
+                }
+                /*get in touch center*/
+                	
+}
+@media (max-width: 480px){
+				.image-head{
+					text-align: center;
+                }
+               .sidehead{
+                	width: auto;text-align: center;
+                	  /*get in touch center*/
+                }
+                .get-touch{
+                	text-align: center;
+                }
+}
+@media (max-width: 320px){
+				.image-head{
+					text-align: center;
+                }
+               .sidehead{
+                	width: auto;text-align: center;
+                	
+                }
+                .copyright
+                {
+                	text-align: center;
+                }
+                .get-touch{
+                	text-align: center;
+                }
+                /*get in touch center
+                copyright font size reduce*/
+}
+@media (max-width: 240px){
+	.copyright
+                {
+                	text-align: center;
+                	font-size: 10px;
+                }
+                .get-touch{
+                	text-align: center;
+                }
+}
